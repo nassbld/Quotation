@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.error-message {
+    color: red; /* Couleur du texte en rouge */
+    font-weight: bold; /* Texte en gras */
+    margin-top: 10px; /* Marge en haut de 10px */
+}

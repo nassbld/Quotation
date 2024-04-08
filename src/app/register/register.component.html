@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div>
+
+            <h1>Register</h1>
+
+            <div *ngIf="errorMessage" class="error-message">
+                {{errorMessage}}
+            </div>
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Username</mat-label>
+                        <input matInput formControlName="username" />
+                    </mat-form-field>
+                </div>
+            <div>
+            
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput formControlName="email" />
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="fill">
+                    <mat-label>Password</mat-label>
+                    <input matInput type="password" formControlName="password" />
+                </mat-form-field>
+            
+            </div>
+            
+                <button mat-raised-button>Register</button>
+            </form>
+        </div>
+
+    </div>
+
+    
+</div>

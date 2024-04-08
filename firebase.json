@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "cotationpublic",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
