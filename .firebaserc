@@ -3,7 +3,7 @@
     "projectcotation": {
       "hosting": {
         "cotationpublic": [
-          "cotationpublic"
+          "projectcotation"
         ]
       }
     }
